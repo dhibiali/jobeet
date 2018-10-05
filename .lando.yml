@@ -1,0 +1,4 @@
+name: jobboard
+recipe: drupal8
+config:
+  webroot: drupal/web
