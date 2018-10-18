@@ -35,8 +35,4 @@ pipeline:
       {{/success}}    
 #services:
 #  - image: docker
-
-  
-
-
 +branches: master
