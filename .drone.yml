@@ -10,10 +10,10 @@ pipeline:
       #- dpkg -i /tmp/lando-latest.deb 
       #- lando version
       #- composer --verbose validate
-      - composer --verbose install
-      - cd web
+      #- composer --verbose install
+      - ls -l
       #- ./../vendor/bin/phpunit -c core --testsuite unit --exclude-group Composer,DependencyInjection,PageCache,Setup
-      - ./../vendor/bin/drush
+      #- ./../vendor/bin/drush
   #deploy:
   #  image: cschlosser/drone-ftps (http://plugins.drone.io/christophschlosser/drone-ftps/)
   #  hostname: example.com:21
